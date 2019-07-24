@@ -1,0 +1,48 @@
+{
+  "name": "mercadolibre-frontend",
+  "version": "1.0.0",
+  "description": "Test práctico para aspirantes al área de front-end de Mercado Libre.",
+  "private": true,
+  "keywords": [
+    "frontend",
+    "mercadolibre",
+    "meli",
+    "test"
+  ],
+  "author": "Martin Gaviola",
+  "repository": "https://github.com/mg9101/meli-frontend-test",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "express": "^4.17.1",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^3.2.1",
+    "react-scripts": "3.0.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "scripts": {
+    "start": "npm run start-client | npm run start-server",
+    "start-client": "react-scripts start",
+    "start-server": "node src/server.js",
+    "build": "react-scripts build",
+    "build-css": "node-sass --include-path scss public/scss/main.scss   public/css/main.css",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
