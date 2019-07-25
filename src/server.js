@@ -177,7 +177,7 @@ function orderResponse(response, order){
         case "address_line":
             return response.sort((a,b) => {return (a.address.address_line < b.address.address_line)?-1:1});
         case "distance":
-            return response.sort((a,b) => {return (a.distance < b.distance)?-1:1});
+            return response.sort((a,b) => {return (a.distance - b.distance)?-1:1});
         case "agency_code":
             return response.sort((a,b) => {return (a.agency_code < b.agency_code)?-1:1});
         default:
@@ -190,7 +190,6 @@ function searchAgencies(id, payment_method, lat, lon, radius, limit, offset){
         method: 'GET',
         uri: `https://api.mercadolibre.com/sites/${id}/payment_methods/${payment_method}/agencies?near_to=${lat},${lon},${radius}&limit=${limit}&offset=${offset}`
     };
-    console.log(request(options).uri);
     return request(options);
 }
 
