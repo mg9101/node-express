@@ -1,7 +1,6 @@
 {
   "name": "mercadolibre-frontend",
   "version": "1.0.0",
-  "description": "Test práctico para aspirantes al área de front-end de Mercado Libre.",
   "private": true,
   "keywords": [
     "frontend",
@@ -10,7 +9,6 @@
     "test"
   ],
   "author": "Martin Gaviola",
-  "repository": "https://github.com/mg9101/meli-frontend-test",
   "dependencies": {
     "axios": "^0.19.0",
     "babel-cli": "^6.26.0",
