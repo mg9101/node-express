@@ -11,7 +11,7 @@ export default class Navbar extends React.Component {
     render() {
         return (
             <nav className="navbar navbar-light bg-dark">
-                <Link className="navbar-brand text-center" to={`/recomAgencies`}>
+                <Link className="navbar-brand  mx-auto" to={`/recomAgencies`}>
                     Ver Lista de Agencias Recomendadas
                 </Link>
             </nav>

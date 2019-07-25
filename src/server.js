@@ -175,7 +175,7 @@ function orderResponse(response, order){
     response = response.results;
     switch (order) {
         case "address_line":
-            return response.sort((a,b) => {return (a.address.address_line < b.address_line)?-1:1});
+            return response.sort((a,b) => {return (a.address.address_line < b.address.address_line)?-1:1});
         case "distance":
             return response.sort((a,b) => {return (a.distance < b.distance)?-1:1});
         case "agency_code":

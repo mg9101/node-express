@@ -1,13 +1,44 @@
+@import "variables";
 
 body{
     margin: 0;
     background-color: #333333;
     font-family: Helvetica, sans-serif;
 }
+
+.container {
+    margin-top: 30px;
+}
+
 .far{
     margin: 0 5px;
     cursor: pointer;
 }
+
 .modal {
     overflow-y:auto !important;
 }
+
+.navbar-light .navbar-brand {
+    color: #ccc !important;
+}
+
+.modal-header {
+    background-color: $ml-dark-gray;
+    color: $ml-light-gray;
+}
+
+table thead {
+    background-color: $ml-yellow;
+}
+
+form {
+    border: solid 1px #999;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.btn-link {
+    padding: 0 !important;
+}
+

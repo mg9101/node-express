@@ -43,10 +43,10 @@ export default class AgenciesTableRow extends React.Component {
                 <td>{this.state.agency.address.state}</td>
                 <td>{this.state.agency.description}</td>
                 <td className="text-center">
-                    <button type="submit" onClick={this.insertAgency}>
+                    <button className="btn btn-link" type="submit" onClick={this.insertAgency}>
                         <i className="far fa-thumbs-up"></i>
                     </button>
-                    <button type="submit" onClick={this.deleteAgency}>
+                    <button className="btn btn-link" type="submit" onClick={this.deleteAgency}>
                         <i className="far fa-thumbs-down"></i>
                     </button>
                 </td>
