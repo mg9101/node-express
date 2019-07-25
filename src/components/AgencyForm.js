@@ -90,8 +90,8 @@ export default class AgencyForm extends React.Component {
                         </div>
                         <div className="form-group">
                             <label htmlFor="exampleInputEmail1">Radio de Busqueda</label>
-                            <input type="number" defaultValue={0} className="form-control" id="radius"
-                                   placeholder="En kilometros" ref="radius" />
+                            <input type="number" defaultValue={100000} className="form-control" id="radius"
+                                   placeholder="En metros" ref="radius" />
                         </div>
                         <div className="form-group">
                             <label htmlFor="exampleInputEmail1">Latitud</label>
