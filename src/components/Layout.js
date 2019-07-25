@@ -1,15 +1,18 @@
 
 import React from 'react';
-import { Link } from 'react-router';
 import Navbar from "./Navbar";
+import AgencyForm from "./AgencyForm";
 
 export default class Layout extends React.Component {
     render() {
         return (
-            <div className="container">
+            <section>
                 <Navbar />
-                {this.props.children}
-            </div>
+                <div className="container">
+                    <AgencyForm />
+                    {this.props.children}
+                </div>
+            </section>
         );
     }
 }

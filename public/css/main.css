@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background-color: #333333;
+  font-family: Helvetica, sans-serif; }
+
+.far {
+  margin: 0 5px;
+  cursor: pointer; }
+
+.modal {
+  overflow-y:auto !important;
+}
