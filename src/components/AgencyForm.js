@@ -120,8 +120,8 @@ export default class AgencyForm extends React.Component {
                         <tr>
                             <th>Codigo de Agencia</th>
                             <th>Direccion</th>
-                            <th>Descripcion</th>
                             <th>Provincia</th>
+                            <th>Descripcion</th>
                             <th>Distancia</th>
                             <th>Recomendar</th>
                         </tr>
