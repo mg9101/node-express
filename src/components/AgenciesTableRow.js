@@ -42,6 +42,7 @@ export default class AgenciesTableRow extends React.Component {
                 <td>{this.state.agency.address.address_line}</td>
                 <td>{this.state.agency.address.state}</td>
                 <td>{this.state.agency.description}</td>
+                <td>{this.state.agency.distance}</td>
                 <td className="text-center">
                     <button className="btn btn-link" type="submit" onClick={this.insertAgency}>
                         <i className="far fa-thumbs-up"></i>

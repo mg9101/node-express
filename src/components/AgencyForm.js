@@ -122,6 +122,7 @@ export default class AgencyForm extends React.Component {
                             <th>Direccion</th>
                             <th>Descripcion</th>
                             <th>Provincia</th>
+                            <th>Distancia</th>
                             <th>Recomendar</th>
                         </tr>
                         </thead>

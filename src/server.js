@@ -188,9 +188,9 @@ function orderResponse(response, order){
 function searchAgencies(id, payment_method, lat, lon, radius, limit, offset){
     const options = {
         method: 'GET',
-        uri: `https://api.mercadolibre.com/sites/${id}/payment_methods/${payment_method}/agencies?
-        near_to=${lat},${lon},${radius}&limit=${limit}&offset=${offset}`
+        uri: `https://api.mercadolibre.com/sites/${id}/payment_methods/${payment_method}/agencies?near_to=${lat},${lon},${radius}&limit=${limit}&offset=${offset}`
     };
+    console.log(request(options).uri);
     return request(options);
 }
 
